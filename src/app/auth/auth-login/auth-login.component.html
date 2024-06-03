@@ -1,0 +1,15 @@
+<form (ngSubmit)="onSubmit()" [formGroup]="formGroup" #formDir="ngForm">
+  <label>Username/Email</label>
+  <input type="email" formControlName="username">
+  <label>Password</label>
+  <input type="password" formControlName="password">
+  <button type="submit">Logar</button>
+  <dir *ngIf="error">
+    <p>{{msg}}</p>
+  </dir>
+
+  <dir *ngIf="greate">
+    <p>{{msg}}</p>
+  </dir>
+  
+</form>

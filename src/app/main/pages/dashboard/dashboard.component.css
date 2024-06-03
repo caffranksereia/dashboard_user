@@ -1,0 +1,147 @@
+.container_menu {
+  width: 100%;
+  height: 128px;
+  background-color:#3AAF83;
+  display:flex;
+}
+
+.container_menu_cortesia {
+  width: 90%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.container_img{
+  background-color:#FFFFFF;
+  width: 96px;
+  height: 96px;
+  border-radius: 100%;
+  margin: 12px;
+}
+
+.container_img img{
+  border-radius: 100%;
+}
+
+.container_cortesia {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 500px;
+}
+
+.container_cortesia h1 {
+  font-size: 32px;
+  color: #FFFFFF;
+}
+
+.container_last_acess {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 245px;
+  height: 20px;
+  margin-left: 110px;
+  margin-top: 20px;
+
+}
+
+.container_last_acess p {
+  font-size: 14px;
+  color: #FFFFFF;
+}
+.container_menu_getOut {
+
+  width: 24px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  cursor:pointer;
+}
+
+.container_menu_getOut button {
+
+  width: 24px;
+  height: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+  cursor:pointer;
+  background-color:#3AAF83;
+  border:none
+}
+
+
+.container_menu_getOut img {
+  width: 24px;
+  height: 24px;
+}
+
+
+
+.container_view_list {
+  background-color: #e2f8f0;
+  width: 100%;
+  height: 192px;
+}
+
+.container_view_list {
+  width: 100%;
+  height:192px;
+}
+
+.container_view_list_button {
+  height:192px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.container_view_button{
+  width: 64px;
+  height: 64px;
+  margin: 24px;
+}
+.container_carrousel {
+  width: 100%;
+  position: relative;
+  display: flex;
+  background-color: aquamarine;
+}
+.container {
+  width: 175px;
+  height: 169px;
+}
+
+.container_body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 128px;
+  height: 128px;
+  border-radius: 100%;
+  margin-top:5px;
+  margin-left:25px;
+  background-color: #D9D9D9;
+
+}
+
+.container_body h1 {
+  font-size: 48px;
+  color: #3AAF83;
+}
+
+.container_body_name {
+  width: 100%;
+  height: 33px;
+  margin-top:5px;
+}
+.container_body_name p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  padding: 2px;
+} 
